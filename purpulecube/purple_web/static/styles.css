@@ -1,0 +1,163 @@
+
+body {
+    background-image: url('../static/images/Picture1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    width: 800px;
+    height: 400px;
+    
+}
+
+h4{
+    color: white;
+    font-family: Arial, sans-serif;
+ }
+.container {
+    max-width: 800px; 
+    margin: 0 auto;
+    padding: 2px;
+}
+
+.form-box {
+    text-align: center;
+    max-width: 400px;
+    height: 300px;
+    padding: 20px;
+    border: 1px solid white; /* Set the border color to red */
+    border-radius: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Additional styles for the form elements if needed */
+/* form {
+    margin-left: 140px;
+    margin-top:10px;
+    
+}
+
+label, input {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 150px;
+    font-family: Arial, sans-serif;
+}
+
+button {
+    cursor: pointer;
+} */ 
+
+/* .form-box input[type="text"],
+.form-box input[type="password"] {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center; Center the placeholder text
+} */
+
+
+h1{
+    color:#5600E8;
+    text-align:center;
+    font-family: Arial, sans-serif;
+  }
+    .login{
+        /* text-align:'center'; */
+        margin-right: 10%;
+    }
+    .form-box {
+      max-width: 350px;
+      height: 290px;
+      margin: 0 auto;
+      padding: 20px;
+      /* background-color: #f5f5f5; */
+      border-radius: 50px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin-top:22%;
+    }
+  
+    .form-box .er {
+      color: wheat;
+      margin-top: 1px;
+      
+      
+    }
+  
+    .form-box .form-boxh1 {
+      margin-bottom: 20px;
+    }
+  
+    .form-box .form-field label {
+      display: block;
+      margin-bottom: 5px;
+      font-size:19px;
+      color:#5600E8;
+      font-weight: bold;
+    }
+  
+    .form-box .form-field input[type="text"],
+    .form-box .form-field input[type="password"] {
+      /* width: 100%; */
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+  
+    .form-box .form-field .error-message {
+      color: red;
+      font-size: 12px;
+      margin-top: 5px;
+    }
+  
+    .form-box input[type="submit"] {
+        /* {% comment %} display: block; {% endcomment %}
+        {% comment %} margin: 0 auto; {% endcomment %} */
+        width: 53%;    
+        height:38px;
+        margin-left:0px;
+        margin-top:1%;
+        /* background-color: #5600E8; */
+        background: linear-gradient(66.95deg,#45c4f9,rgba(136,82,255,.81) 45.31%,#8852ff 99.48%);
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        font-size:15px;
+      }
+    
+      .form-box input[type="submit"]:hover {
+        background-color: #8852ff;
+      }
+  
+    .form-box .signup {
+      color: white;
+    }
+    .span{
+        /* width:0%; */
+        text-decoration:None;
+        background-color: #007CAD; /*#5600E8; */
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        font-family:Arial,sans-serif;
+        font-size:15px;
+
+        
+    }
+    .span:hover {
+        background-color: #8852ff;
+      }
+
+    .signup:hover {
+      background-color: #8852ff;
+    }
+    /* {% comment %} #button{
+      margin-left:50px;
+    } {% endcomment %} */
+    /* body { 
+      
+     } */
